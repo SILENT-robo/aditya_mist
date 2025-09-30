@@ -1,0 +1,211 @@
+body {
+    font-family: Times New Roman;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.container {
+    width: 90%;
+}
+
+header {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: red;
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav-links a:hover {
+    color: green;
+}
+
+.hero {
+    background-color: pink;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+    border: 3px solid purple;
+}
+
+.hero-content h2 {
+    font-size: 40px;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.hero-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: lime;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+.cta-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.about {
+    background-color: lightgreen;
+    padding: 25px;
+    margin: 15px;
+    border: 4px dotted red;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 35px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: darkred;
+    text-align: left;
+    padding: 10px;
+}
+
+.skills {
+    background-color: yellow;
+    padding: 30px;
+    margin: 10px;
+    border: 5px solid blue;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 32px;
+    color: brown;
+    margin-bottom: 25px;
+}
+
+.skills-grid {
+    display: block;
+}
+
+.skill-card {
+    background-color: orange;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+.skill-card:hover {
+    background-color: cyan;
+}
+
+.skill-card h3 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.skill-card p {
+    color: darkblue;
+    font-size: 14px;
+}
+
+.contact {
+    background-color: lightcoral;
+    padding: 40px;
+    margin: 20px;
+    border: 6px double green;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 28px;
+    color: navy;
+    margin-bottom: 15px;
+}
+
+.contact > .container > p {
+    text-align: center;
+    font-size: 16px;
+    color: maroon;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: block;
+}
+
+.contact-item {
+    text-align: center;
+    padding: 20px;
+    background-color: violet;
+    margin: 15px;
+    border: 3px solid black;
+    display: inline-block;
+    width: 250px;
+}
+
+.contact-item:hover {
+    background-color: gold;
+}
+
+.contact-item h3 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-item p {
+    color: darkgreen;
+    font-size: 14px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    color: yellow;
+    font-size: 16px;
+}
+
+/* I don't know what responsive means but this looks important */
+@media screen {
+    body {
+        font-size: 14px;
+    }
+}
