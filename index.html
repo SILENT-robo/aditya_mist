@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <title>aditya - personal page</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+  <header>
+      <nav>
+          <div class="logo">
+              <h1>Aditya</h1>
+          </div>
+        <ul class="nav-links">
+                  <li><a href="#home">home</a></li>
+             <li><a href="#about">About</a></li>
+                <li><a href="#skills">skills</a></li>
+                  <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+   <main>
+       
+       <section id="home" class="hero">
+         <div class="hero-content">
+               <h2>Hey there!  I'm Aditya</h2>
+                 <p class="hero-subtitle">Welcome to my little corner of the internet! </p>
+           <p class="hero-description">Just a guy who loves coding, learning cool stuff, and occasionally makes things that work! 😄</p>
+               <a href="#about" class="cta-button">Let's hang out! </a>
+         </div>
+       </section>
+
+      <section id="about" class="about">
+           <div class="container">
+                <h2>About Me </h2>
+                   <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            cannot think of anything to write here i m aditya and i like MIST
+                        </p>
+                       
+                      
+                    </div>
+                   </div>
+           </div>
+      </section>
+
+       <section id="skills" class="skills">
+          <div class="container">
+             <h2>Things I Can Do </h2>
+               <div class="skills-grid">
+                 
+                   <div class="skill-card">
+                       <h3> Web Stuff</h3>
+                          <p>HTML, CSS, JavaScript (and Stack Overflow)</p>
+                   </div>
+                    <div class="skill-card">
+                        <h3> Coding Languages</h3>
+                       <p>Python, Java, C++ (with lots of coffee)</p>
+                    </div>
+                      <div class="skill-card">
+                        <h3> Problem Solving</h3>
+                        <p>Googling errors until something works</p>
+                      </div>
+                   <div class="skill-card">
+                        <h3>Social Skills</h3>
+                      <p>Explaining why my code broke... again</p>
+                   </div>
+               </div>
+          </div>
+       </section>
+
+      <section id="contact" class="contact">
+         <div class="container">
+              <h2>Let's Be Friends! </h2>
+                <p>Hit me up if you want to chat about code, life, or why pineapple on pizza is actually okay! 🍕</p>
+              <div class="contact-info">
+                
+                  <div class="contact-item">
+                     <h3>  Email</h3>
+                      <p>aditya.probably.checks.this@gmail.com</p>
+                  </div>
+                 <div class="contact-item">
+                       <h3> Phone</h3>
+                     <p>xxxxxxxxxxCALL-ME-MAYBE</p>
+                 </div>
+                    <div class="contact-item">
+                      <h3>Location</h3>
+                      <p>Somewhere on Earth (hopefully)</p>
+                    </div>
+              </div>
+         </div>
+      </section>
+   </main>
+
+   
+   <footer>
+        <div class="container">
+           <p>&copy; 2025 Aditya. All rights reserved.</p>
+        </div>
+   </footer>
+
+   <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+             e.preventDefault();
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+   </script>
+
+</body>
+</html>
