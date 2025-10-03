@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <title>aditya - personal page</title>
+ 
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="font-serif bg-sky-300 m-2">
+  <header class="bg-yellow-400 p-5 text-center">
+      <nav>
+          <div>
+              <h1 class="text-red-600 text-3xl">Aditya</h1>
+          </div>
+        <ul class="list-none">
+                  <li class="inline mx-4"><a href="#home" class="text-blue-600 underline hover:text-green-600">home</a></li>
+             <li class="inline mx-4"><a href="#about" class="text-blue-600 underline hover:text-green-600">About</a></li>
+                <li class="inline mx-4"><a href="#skills" class="text-blue-600 underline hover:text-green-600">skills</a></li>
+                  <li class="inline mx-4"><a href="#contact" class="text-blue-600 underline hover:text-green-600">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+   <main>
+       
+       <section id="home" class="bg-pink-300 p-12 text-center mt-5 border-4 border-purple-600">
+         <div>
+               <h2 class="text-4xl text-blue-900 mb-3">Hey there!  I'm Aditya</h2>
+                 <p class="text-xl text-orange-500 mb-4">Welcome to my little corner of the internet! </p>
+           <p class="text-base mb-8">Just a guy who loves coding, learning cool stuff, and occasionally makes things that work! 😄</p>
+               <a href="#about" class="bg-lime-400 text-black px-5 py-2 border-2 border-black no-underline hover:bg-red-600 hover:text-white">Let's hang out! </a>
+         </div>
+       </section>
+
+      <section id="about" class="bg-green-200 p-6 m-4 border-4 border-dotted border-red-600">
+           <div class="w-11/12">
+                <h2 class="text-center text-4xl text-purple-600 mb-5">About Me </h2>
+                   <div>
+                    <div>
+                        <p class="text-lg mb-5 text-red-900 text-left p-2">
+                            cannot think of anything to write here i m aditya and i like MIST
+                        </p>
+                       
+                      
+                    </div>
+                   </div>
+           </div>
+      </section>
+
+       <section id="skills" class="bg-yellow-400 p-8 m-2 border-4 border-blue-600">
+          <div class="w-11/12">
+             <h2 class="text-center text-3xl text-yellow-900 mb-6">Things I Can Do </h2>
+               <div class="block">
+                 
+                   <div class="bg-orange-500 p-4 m-2 border-2 border-black text-center inline-block w-48 hover:bg-cyan-400">
+                       <h3 class="text-black mb-2 text-xl"> Web Stuff</h3>
+                          <p class="text-blue-900 text-sm">HTML, CSS, JavaScript (and Stack Overflow)</p>
+                   </div>
+                    <div class="bg-orange-500 p-4 m-2 border-2 border-black text-center inline-block w-48 hover:bg-cyan-400">
+                        <h3 class="text-black mb-2 text-xl"> Coding Languages</h3>
+                       <p class="text-blue-900 text-sm">Python, Java, C++ (with lots of coffee)</p>
+                    </div>
+                      <div class="bg-orange-500 p-4 m-2 border-2 border-black text-center inline-block w-48 hover:bg-cyan-400">
+                        <h3 class="text-black mb-2 text-xl"> Problem Solving</h3>
+                        <p class="text-blue-900 text-sm">Googling errors until something works</p>
+                      </div>
+                   <div class="bg-orange-500 p-4 m-2 border-2 border-black text-center inline-block w-48 hover:bg-cyan-400">
+                        <h3 class="text-black mb-2 text-xl">Social Skills</h3>
+                      <p class="text-blue-900 text-sm">Explaining why my code broke... again</p>
+                   </div>
+               </div>
+          </div>
+       </section>
+
+      <section id="contact" class="bg-red-300 p-10 m-5 border-8 border-double border-green-600">
+         <div class="w-11/12">
+              <h2 class="text-center text-3xl text-blue-900 mb-4">Let's Be Friends! </h2>
+                <p class="text-center text-base text-red-900 mb-8">Hit me up if you want to chat about code, life, or why pineapple on pizza is actually okay! 🍕</p>
+              <div class="block">
+                
+                  <div class="text-center p-5 bg-violet-400 m-4 border-4 border-black inline-block w-64 hover:bg-yellow-400">
+                     <h3 class="text-black mb-2 text-lg">  Email</h3>
+                      <p class="text-green-900 text-sm">aditya.probably.checks.this@gmail.com</p>
+                  </div>
+                 <div class="text-center p-5 bg-violet-400 m-4 border-4 border-black inline-block w-64 hover:bg-yellow-400">
+                       <h3 class="text-black mb-2 text-lg"> Phone</h3>
+                     <p class="text-green-900 text-sm">xxxxxxxxxxCALL-ME-MAYBE</p>
+                 </div>
+                    <div class="text-center p-5 bg-violet-400 m-4 border-4 border-black inline-block w-64 hover:bg-yellow-400">
+                      <h3 class="text-black mb-2 text-lg">Location</h3>
+                      <p class="text-green-900 text-sm">Somewhere on Earth (hopefully)</p>
+                    </div>
+              </div>
+         </div>
+      </section>
+   </main>
+
+   
+   <footer class="bg-gray-500 text-white p-5 text-center mt-8">
+        <div class="w-11/12">
+           <p class="text-yellow-400 text-base">&copy; 2025 Aditya. All rights reserved.</p>
+        </div>
+   </footer>
+
+   <!-- smooth scrolling javascript -->
+   <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+             e.preventDefault();
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+   </script>
+
+</body>
+</html>
